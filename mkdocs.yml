@@ -39,6 +39,7 @@ theme:
 # Plugins Configuration
 plugins:
   - search
+  - glightbox
   - git-revision-date-localized:
       enabled: !ENV [CI, true]
       enable_creation_date: true
