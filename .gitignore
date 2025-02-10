@@ -4,3 +4,6 @@
 
 ### Environment Variables
 .env
+
+### Material for MkDocs
+.cache
