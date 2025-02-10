@@ -57,7 +57,16 @@
     
     
     
-  </head>
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -615,9 +624,9 @@
 <h1 id="design-andern">Design ändern</h1>
 <p>In den Bildern ist erklärt, welche Einstellung für was ist.</p>
 <h2 id="name-internet-link-slogan-farbe-logo-hintergrund-und-anmeldebild-andern">Name, Internet-Link, Slogan, Farbe, Logo, Hintergrund und Anmeldebild ändern</h2>
-<p><img alt="Name, Internet-Link, Slogan, Farbe, Logo, Hintergrund und Anmeldebild ändern" src="../../assets/Admin/Design/Designeinstellungen-1.jpg" /></p>
+<p><a class="glightbox" href="../../assets/Admin/Design/Designeinstellungen-1.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Name, Internet-Link, Slogan, Farbe, Logo, Hintergrund und Anmeldebild ändern" src="../../assets/Admin/Design/Designeinstellungen-1.jpg" /></a></p>
 <h2 id="logo-link-zu-impressum-und-datenschutzbestimmungen-andern">Logo, Link zu Impressum und Datenschutzbestimmungen ändern</h2>
-<p><img alt="Logo, Link zu Impressum und Datenschutzbestimmungen ändern" src="../../assets/Admin/Design/Designeinstellungen-2.jpg" /></p>
+<p><a class="glightbox" href="../../assets/Admin/Design/Designeinstellungen-2.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Logo, Link zu Impressum und Datenschutzbestimmungen ändern" src="../../assets/Admin/Design/Designeinstellungen-2.jpg" /></a></p>
 
 
 
@@ -725,5 +734,7 @@
       <script src="../../assets/javascripts/bundle.f1b6f286.min.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

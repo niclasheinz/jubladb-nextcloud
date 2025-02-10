@@ -55,7 +55,16 @@
     
     
     
-  </head>
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -781,12 +790,12 @@
 <h1 id="sicherheitseinstellungen">Sicherheitseinstellungen</h1>
 <h2 id="zwei-faktor-authentifizierung">Zwei-Faktor-Authentifizierung</h2>
 <p>Wir empfehlen, die zwei-Faktor-Authentifizierung für die Administratoren zu erzwingen. So hat man einen besseren Schutz. Man kann bei einzelnen Gruppen die zwei-Faktor-Authentizierung erzwingen.</p>
-<p><img alt="" src="../../assets/Admin/Sicherheitseinstellungen/Sicherheitseinstellungen_2FA-4.jpg" /></p>
+<p><a class="glightbox" href="../../assets/Admin/Sicherheitseinstellungen/Sicherheitseinstellungen_2FA-4.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../../assets/Admin/Sicherheitseinstellungen/Sicherheitseinstellungen_2FA-4.jpg" /></a></p>
 <h2 id="serverseitige-verschlusselung">Serverseitige Verschlüsselung</h2>
 <p>Wir empfehlen die serverseitige Verschlüsselung zu aktivieren. Bei dieser werden alle Dateien verschlüsselt auf dem Server abgespeichert, jedoch kann die Instanz langsamer werden.</p>
 <h2 id="password-regeln">Password-Regeln</h2>
 <p>Bei den Password-Regeln ist wichtig zu beachten, dass die Passwörter so stark sein müssen, damit man diese nicht so einfach errät. Das automatische ablaufen der Passwörter nach einer gewissen Zeit bietet eine erhöhte Sicherheit. Jedoch schadet dies der Bequemlichkeit. Hier muss der Administrator selbst überlegen, welche Einstellungen für ihn passen. Da die „normalen“ Benutzer der Schar gar kein Password eingeben müssen, betrifft dies nur die Administratoren-Benutzer.</p>
-<p><img alt="Password-Regeln" src="../../assets/Admin/Sicherheitseinstellungen/Sicherheitseinstellungen_Passwort-Regeln.jpg" /></p>
+<p><a class="glightbox" href="../../assets/Admin/Sicherheitseinstellungen/Sicherheitseinstellungen_Passwort-Regeln.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Password-Regeln" src="../../assets/Admin/Sicherheitseinstellungen/Sicherheitseinstellungen_Passwort-Regeln.jpg" /></a></p>
 <h2 id="einstellungen-ubers-teilen">Einstellungen übers Teilen</h2>
 <h3 id="virtueller-zaun-um-nextcloud-instanz">Virtueller Zaun um Nextcloud Instanz</h3>
 <p>Theoretisch kannst du einen „virtuellen Zaun“ um deine Schar-Cloud errichten. Dies kannst du bewerkstelligen indem du einstellst, dass nur Personen in der selbsten Gruppe sich gegenseitig sehen können. Zudem kannst du die „Federated Share-Funktion“ abstellen, damit niemand ausser deine Mitglieder auf die Instanz zugreifen können.</p>
@@ -828,17 +837,17 @@
     <tr>
         <td>
             <span class="step-number">1</span>
-            <img src="../../assets/Benutzer/Teilen/Teilen-OeffentlicherLink_1.jpg" alt="Teilen-1">
+            <a class="glightbox" href="../../assets/Benutzer/Teilen/Teilen-OeffentlicherLink_1.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../assets/Benutzer/Teilen/Teilen-OeffentlicherLink_1.jpg" alt="Teilen-1"></a>
         </td>
         <td>
             <span class="step-number">2</span>
-            <img src="../../assets/Benutzer/Teilen/Teilen-OeffentlicherLink_2.jpg" alt="Teilen-2">
+            <a class="glightbox" href="../../assets/Benutzer/Teilen/Teilen-OeffentlicherLink_2.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../assets/Benutzer/Teilen/Teilen-OeffentlicherLink_2.jpg" alt="Teilen-2"></a>
         </td>
     </tr>
     <tr>
         <td>
             <span class="step-number">3</span>
-            <img src="../../assets/Benutzer/Teilen/Teilen-OeffentlicherLink_3.jpg" alt="Teilen-3">
+            <a class="glightbox" href="../../assets/Benutzer/Teilen/Teilen-OeffentlicherLink_3.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../assets/Benutzer/Teilen/Teilen-OeffentlicherLink_3.jpg" alt="Teilen-3"></a>
         </td>
     </tr>
 </table>
@@ -854,38 +863,38 @@ Mehr Informationen: https://jubladb-handbuch.readthedocs.io/de/latest/qa.html#oa
     <tr>
         <td>
             <span class="step-number">1</span>
-            <img src="../../assets/Admin/OpenID/Authentifizierung_OpenID_Connector-1.jpg" alt="OpenID-1">
+            <a class="glightbox" href="../../assets/Admin/OpenID/Authentifizierung_OpenID_Connector-1.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../assets/Admin/OpenID/Authentifizierung_OpenID_Connector-1.jpg" alt="OpenID-1"></a>
         </td>
         <td>
             <span class="step-number">2</span>
-            <img src="../../assets/Admin/OpenID/Authentifizierung_OpenID_Connector-2.jpg" alt="OpenID-2">
+            <a class="glightbox" href="../../assets/Admin/OpenID/Authentifizierung_OpenID_Connector-2.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../assets/Admin/OpenID/Authentifizierung_OpenID_Connector-2.jpg" alt="OpenID-2"></a>
         </td>
     </tr>
     <tr>
         <td>
             <span class="step-number">3</span>
-            <img src="../../assets/Admin/OpenID/Authentifizierung_OpenID_Connector-3.jpg" alt="OpenID-3">
+            <a class="glightbox" href="../../assets/Admin/OpenID/Authentifizierung_OpenID_Connector-3.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../assets/Admin/OpenID/Authentifizierung_OpenID_Connector-3.jpg" alt="OpenID-3"></a>
         </td>
         <td>
             <span class="step-number">4</span>
-            <img src="../../assets/Admin/OpenID/Authentifizierung_OpenID_Connector-4.jpg" alt="OpenID-4">
+            <a class="glightbox" href="../../assets/Admin/OpenID/Authentifizierung_OpenID_Connector-4.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../assets/Admin/OpenID/Authentifizierung_OpenID_Connector-4.jpg" alt="OpenID-4"></a>
         </td>
     </tr>
     <tr>
         <td>
             <span class="step-number">5</span>
-            <img src="../../assets/Admin/OpenID/Authentifizierung_OpenID_Connector-5.jpg" alt="OpenID-5">
+            <a class="glightbox" href="../../assets/Admin/OpenID/Authentifizierung_OpenID_Connector-5.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../assets/Admin/OpenID/Authentifizierung_OpenID_Connector-5.jpg" alt="OpenID-5"></a>
         </td>
         <td>
             <span class="step-number">6</span>
-            <img src="../../assets/Admin/OpenID/Authentifizierung_OpenID_Connector-6.jpg" alt="OpenID-6">
+            <a class="glightbox" href="../../assets/Admin/OpenID/Authentifizierung_OpenID_Connector-6.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../assets/Admin/OpenID/Authentifizierung_OpenID_Connector-6.jpg" alt="OpenID-6"></a>
         </td>
     </tr>
 </table>
 
 <h2 id="benutzerverwaltung">Benutzerverwaltung</h2>
 <p>Nachdem du die Authentifizierung mittels Jubla DB eingerichtet hast, musst du in der Regel keine Benutzer erstellen. Sobald ein Mitglied deiner Schar sich mittels der Jubla DB anmeldet, wird ein Benutzerkonto automatisch angelegt. Trotzdem ist es empfehlenswert ab und zu mal zu überprüfen, ob sich jemand eingeschlichen hat. Zudem solltest du als Administrator darauf achten, dass nicht zu viele Personen Administratorenrechte erhalten (ist aus Sicherheitsgründen wichtig). </p>
-<p><img alt="Benutzerverwaltung in Nextcloud" src="../../assets/Admin/Benutzerverwaltung/Benutzerverwaltung-1.png" /></p>
+<p><a class="glightbox" href="../../assets/Admin/Benutzerverwaltung/Benutzerverwaltung-1.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Benutzerverwaltung in Nextcloud" src="../../assets/Admin/Benutzerverwaltung/Benutzerverwaltung-1.png" /></a></p>
 
 
 
@@ -993,5 +1002,7 @@ Mehr Informationen: https://jubladb-handbuch.readthedocs.io/de/latest/qa.html#oa
       <script src="../../assets/javascripts/bundle.f1b6f286.min.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

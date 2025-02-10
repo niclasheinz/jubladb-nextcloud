@@ -57,7 +57,16 @@
     
     
     
-  </head>
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -634,27 +643,27 @@
     <tr>
         <td>
             <span class="step-number">1</span>
-            <img src="../../assets/Admin/Sicherheitseinstellungen/Sicherheitseinstellungen_2FA-1.jpg" alt="2FA-1">
+            <a class="glightbox" href="../../assets/Admin/Sicherheitseinstellungen/Sicherheitseinstellungen_2FA-1.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../assets/Admin/Sicherheitseinstellungen/Sicherheitseinstellungen_2FA-1.jpg" alt="2FA-1"></a>
         </td>
         <td>
             <span class="step-number">2</span>
-            <img src="../../assets/Admin/Sicherheitseinstellungen/Sicherheitseinstellungen_2FA-2.jpg" alt="2FA-2">
+            <a class="glightbox" href="../../assets/Admin/Sicherheitseinstellungen/Sicherheitseinstellungen_2FA-2.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../assets/Admin/Sicherheitseinstellungen/Sicherheitseinstellungen_2FA-2.jpg" alt="2FA-2"></a>
         </td>
     </tr>
     <tr>
         <td>
             <span class="step-number">3</span>
-            <img src="../../assets/Admin/Sicherheitseinstellungen/Sicherheitseinstellungen_2FA-3.jpg" alt="2FA-3">
+            <a class="glightbox" href="../../assets/Admin/Sicherheitseinstellungen/Sicherheitseinstellungen_2FA-3.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../assets/Admin/Sicherheitseinstellungen/Sicherheitseinstellungen_2FA-3.jpg" alt="2FA-3"></a>
         </td>
         <td>
             <span class="step-number">4</span>
-            <img src="../../assets/Admin/Sicherheitseinstellungen/Sicherheitseinstellungen_Backupcodes_1.jpg" alt="Backupcodes_1">
+            <a class="glightbox" href="../../assets/Admin/Sicherheitseinstellungen/Sicherheitseinstellungen_Backupcodes_1.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../assets/Admin/Sicherheitseinstellungen/Sicherheitseinstellungen_Backupcodes_1.jpg" alt="Backupcodes_1"></a>
         </td>
     </tr>
     <tr>
         <td>
             <span class="step-number">5</span>
-            <img src="../../assets/Admin/Sicherheitseinstellungen/Sicherheitseinstellungen_Backupcodes_2.jpg" alt="Backupcodes_2">
+            <a class="glightbox" href="../../assets/Admin/Sicherheitseinstellungen/Sicherheitseinstellungen_Backupcodes_2.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../assets/Admin/Sicherheitseinstellungen/Sicherheitseinstellungen_Backupcodes_2.jpg" alt="Backupcodes_2"></a>
         </td>
         <td>Damit du allen Benutzern in der Gruppe „admin“ die 2FA erzwingen möchtest, gehe wie bei Kapitel 2.2.1 vor.</td>
     </tr>
@@ -766,5 +775,7 @@
       <script src="../../assets/javascripts/bundle.f1b6f286.min.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>
