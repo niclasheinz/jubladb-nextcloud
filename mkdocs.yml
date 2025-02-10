@@ -47,6 +47,7 @@ plugins:
       repository: niclasheinz/jubladb-nextcloud
       branch: main
       enabled: !ENV [CI, true]
+      token: !ENV [GH_TOKEN]
   
 # Markdown Extensions
 markdown_extensions:
