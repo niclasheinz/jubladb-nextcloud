@@ -76,3 +76,13 @@ markdown_extensions:
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
   
+nav:
+  - Startseite: index.md
+  - Grundlagen:
+      - Login: Grundlagen/Login.md
+      - Anbieter: Grundlagen/Anbieter.md
+      - Hinweis: Grundlagen/Hinweis.md
+  - Nextcloud-Appstore: Nextcloud-Appstore/index.md
+  - Nextcloud-Einstellungen:
+      - Design: Nextcloud-Einstellungen/Design.md
+      - Sicherheitseinstellungen: Nextcloud-Einstellungen/Sicherheitseinstellungen.md
