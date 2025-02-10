@@ -1,4 +1,9 @@
 site_name: Jubladb mit Nextcloud verbinden
 site_url: https://niclasheinz.github.io/jubladb-nextcloud
+repo_name: niclasheinz/jubladb-nextcloud 
+site_author: Niclas Heinz
+edit_uri: -/edit/main/docs/
+
 theme:
   name: material
+  
