@@ -37,7 +37,7 @@ jobs:
           key: mkdocs-material-${{ env.cache_id }}-${{ hashFiles('requirements.txt') }}
           path: .cache
           restore-keys: |
-            mkdocs-material-
+            mkdocs-
 
       - name: Install Dependencies
         run: pip install -r requirements.txt
