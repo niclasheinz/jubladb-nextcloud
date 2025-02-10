@@ -1,0 +1,3 @@
+# Nextcloud Anbieter
+
+Grundsätzlich kann jeder Schweizer Nextcloud Anbieter gewählt werden. Es sollte darauf geachtet werden, dass die Daten in der Schweiz und nicht im Ausland gespeichert werden. Zudem sollte man darauf achten, dass gewisse Nextcloud-Anbieter keine Gewährleistung für selbstinstallierte Apps übernehmen. Während des Projektes haben wir uns bei Ops One eine Nextcloud hosten lassen. Weitere Infos findest Du [hier](https://opsone.ch/de/managed-applications/nextcloud).
