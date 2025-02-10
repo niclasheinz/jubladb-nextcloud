@@ -7,6 +7,12 @@ edit_uri: -/edit/main/docs/
 theme:
   name: material
   language: de
+  features:
+    - content.action.edit
+    - content.action.view
+  icon:
+    edit: material/pencil
+    view: material/eye
   theme:
   palette:
     # Palette toggle for automatic mode
