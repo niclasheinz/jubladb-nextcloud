@@ -42,27 +42,27 @@ Damit deine Nextcloud-Instanz sicher ist, muss der Adminbenutzer auch abgesicher
     <tr>
         <td>
             <span class="step-number">1</span>
-            <img src="../assets/Admin/Sicherheitseinstellungen/Sicherheitseinstellungen_2FA-1.jpg" alt="2FA-1">
+            <img src="../../assets/Admin/Sicherheitseinstellungen/Sicherheitseinstellungen_2FA-1.jpg" alt="2FA-1">
         </td>
         <td>
             <span class="step-number">2</span>
-            <img src="../assets/Admin/Sicherheitseinstellungen/Sicherheitseinstellungen_2FA-2.jpg" alt="2FA-2">
+            <img src="../../assets/Admin/Sicherheitseinstellungen/Sicherheitseinstellungen_2FA-2.jpg" alt="2FA-2">
         </td>
     </tr>
     <tr>
         <td>
             <span class="step-number">3</span>
-            <img src="../assets/Admin/Sicherheitseinstellungen/Sicherheitseinstellungen_2FA-3.jpg" alt="2FA-3">
+            <img src="../../assets/Admin/Sicherheitseinstellungen/Sicherheitseinstellungen_2FA-3.jpg" alt="2FA-3">
         </td>
         <td>
             <span class="step-number">4</span>
-            <img src="../assets/Admin/Sicherheitseinstellungen/Sicherheitseinstellungen_Backupcodes_1.jpg" alt="Backupcodes_1">
+            <img src="../../assets/Admin/Sicherheitseinstellungen/Sicherheitseinstellungen_Backupcodes_1.jpg" alt="Backupcodes_1">
         </td>
     </tr>
     <tr>
         <td>
             <span class="step-number">5</span>
-            <img src="../assets/Admin/Sicherheitseinstellungen/Sicherheitseinstellungen_Backupcodes_2.jpg" alt="Backupcodes_2">
+            <img src="../../assets/Admin/Sicherheitseinstellungen/Sicherheitseinstellungen_Backupcodes_2.jpg" alt="Backupcodes_2">
         </td>
         <td>Damit du allen Benutzern in der Gruppe „admin“ die 2FA erzwingen möchtest, gehe wie bei Kapitel 2.2.1 vor.</td>
     </tr>
