@@ -1,0 +1,4 @@
+site_name: Jubladb mit Nextcloud verbinden
+site_url: https://niclasheinz.github.io/jubladb-nextcloud
+theme:
+  name: material
