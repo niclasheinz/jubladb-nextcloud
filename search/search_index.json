@@ -1,1 +1,1 @@
-{"config":{"lang":["de"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"]},"docs":[{"location":"","title":"Nextcloud f\u00fcr Scharen","text":""}]}
+{"config":{"lang":["de"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"]},"docs":[{"location":"","title":"Nextcloud f\u00fcr Scharen","text":"<p>Note</p> <p>Diese Dokumentation ist noch im Aufbau. Features k\u00f6nnen nicht komplett oder nicht funktionst\u00fcchtig sein. Die AG Nextcloud arbeitet momentan an diesem Projekt.</p>"}]}
