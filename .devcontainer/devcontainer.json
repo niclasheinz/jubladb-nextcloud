@@ -1,0 +1,27 @@
+{
+    "name": "Lernjournal DevContainer",
+    "image": "registry.gitlab.com/niclas-zone/ctr/python:3.11.2-devcontainer",
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "ms-python.python",
+          "ms-python.black",
+          "gitlab.gitlab-workflow"
+        ],
+        "settings": {
+          "python.defaultInterpreterPath": "/usr/local/bin/python",
+          "python.testing.pytestEnabled": true,
+          "python.testing.unittestEnabled": false
+        }
+      }
+    },
+    "forwardPorts": [8000],
+    "portsAttributes": {
+      "8000": {
+        "label": "Lernjournal Preview Server",
+        "onAutoForward": "openBrowser"
+      }
+    },
+    "runArgs": ["--hostname=jubladb-nextcloud"]
+}
+  
