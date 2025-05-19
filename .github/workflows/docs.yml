@@ -19,8 +19,8 @@ jobs:
 
       - name: Configure Git Credentials
         run: |
-          git config user.name "Niclas Heinz"
-          git config user.email "nheinz@hpost.net"
+          git config user.name "${{ USER_NAME }}"
+          git config user.email ${USER_EMAIL}
 
       - name: Set GitHub Token
         run: echo "GH_TOKEN=${{ secrets.GH_TOKEN }}" >> $GITHUB_ENV  # Securely set token
